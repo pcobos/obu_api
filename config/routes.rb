@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :lesson_questions
   resources :courses do
     resources :lessons
   end
