@@ -1,4 +1,4 @@
-class LessonsController < ApplicationController
+class Api::LessonsController < ApplicationController
   before_action :set_lesson, only: %i[ show update destroy ]
 
   # GET /lessons
